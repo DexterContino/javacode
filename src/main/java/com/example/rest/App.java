@@ -50,7 +50,7 @@ public class App {
      */
     private static void runGetRequest() {
  
-        String url = "http://140.86.15.104:3000/shield/33/45/red/DexterContino";
+        String url = "http://140.86.15.104:3000/fighters/45/1/Red/DexterContino";
         CloseableHttpResponse response = null;
  
         try {
@@ -69,7 +69,198 @@ public class App {
             } catch (IOException ie) {
                 System.out.println(ie);
             }
-        }    
+             private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/2/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        }     private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/3/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        }     private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/1/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        }     private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/4/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        }     private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/5/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        }     private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/6/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        }     private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/7/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        }     private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/8/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        }     private static void runGetRequest() {
+ 
+        String url = "http://140.86.15.104:3000/fighters/45/9/Red/DexterContino";
+        CloseableHttpResponse response = null;
+ 
+        try {
+            CloseableHttpClient httpclient = HttpClients.createDefault();
+            HttpGet httpGet = new HttpGet(url);
+            response = httpclient.execute(httpGet);
+            String content = EntityUtils.toString(response.getEntity());
+            System.out.println("Server response: " + content);
+        } catch (IOException e) {
+            System.out.println(e);
+        } finally {
+            try {
+                if (response != null) {
+                    response.close();
+                }
+            } catch (IOException ie) {
+                System.out.println(ie);
+            }
+        } 
+        }
+     
     }
  
     /**
