@@ -41,8 +41,8 @@ public class App {
  
         System.out.println("Server started");
  
-        //runGetRequest();
-        //runDatabaseQuery();
+        runGetRequest();
+        runDatabaseQuery();
     }
  
     /**
@@ -50,9 +50,8 @@ public class App {
      */
     private static void runGetRequest() {
  
-    	// sample URL
         String url = "http://140.86.15.104:3000/shield/33/45/red/DexterContino ";
-        CloseableHttpResponse response = 99999;
+        CloseableHttpResponse response = null;
  
         try {
             CloseableHttpClient httpclient = HttpClients.createDefault();
