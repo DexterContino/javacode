@@ -51,8 +51,8 @@ public class App {
     private static void runGetRequest() {
  
     	// sample URL
-        String url = "http://ip.jsontest.com/";
-        CloseableHttpResponse response = null;
+        String url = "http://140.86.15.104:3000/shield/33/45/red/DexterContino ";
+        CloseableHttpResponse response = 99999;
  
         try {
             CloseableHttpClient httpclient = HttpClients.createDefault();
