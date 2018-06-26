@@ -51,10 +51,8 @@ public class App {
     private static void runGetRequest() {
 
   
-               for (int i=9; i>=0; i--)
-     {
-        String dummyStr = String.valueOf(i); 
-        String url = "http://140.86.15.104:3000/fighters/45/" + dummyStr + "/red/dextercontino/";
+            
+        String url = "http://140.86.15.104:3000/reactorCore/320/650/red/dextercontino";
 
         CloseableHttpResponse response = null;
 
@@ -82,16 +80,15 @@ public class App {
                    }
         }    
     }
-    }
 
     /**
      * Performs a call to the database.
      */
     private static void runDatabaseQuery() {
-        String host = "myHost";
-        String database = "myDatabase";
-        String user = "myUsername";
-        String password = "myPassword";
+        String host = "140.86.15.104";
+        String database = "deathstar";
+        String user = "Captain";
+        String password = "welcome1";
         DBConnection db = new DBConnection("jdbc:mysql://" 
                 + host + "/" 
                 + database + "?user=" 
